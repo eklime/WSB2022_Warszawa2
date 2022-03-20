@@ -8,7 +8,7 @@ param storageNamePrefix string
   'Standard_LRS'
   'Standard_ZRS'
 ])
-param storageSKU string
+param storageSKU string = 'Standard_LRS'
 
 var storageName = '${toLower(storageNamePrefix)}${uniqueString(resourceGroup().id)}'
 
