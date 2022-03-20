@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageNamePrefix": {
-            "value": "wsb123"
+            "value": "wsb1234"
         }
     }
 }
