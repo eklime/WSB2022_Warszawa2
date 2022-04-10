@@ -21,7 +21,7 @@ resource storageaccount_res 'Microsoft.Storage/storageAccounts@2021-02-01' = {
     accessTier: 'Hot'
     allowSharedKeyAccess: false
     networkAcls: {
-      defaultAction: 'Deny'
+      defaultAction: 'Allow'
       bypass: 'AzureServices'
     }
   }
